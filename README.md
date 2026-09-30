@@ -60,6 +60,20 @@ npm test             # 27 unit tests: hunt logic, flag assignment, contrast
 npm run typecheck
 ```
 
+### Running on your phone (Expo Go)
+
+1. Install **Expo Go** from the App Store or Google Play.
+2. **Connect your phone to the same Wi-Fi network as the computer running the project.** Expo Go loads the app from your computer over the local network, so the QR code won't connect from a different network (or mobile data).
+3. Run `npx expo start` (same as `npm start`) and scan the QR code: with the Camera app on iOS, or from inside Expo Go on Android.
+
+**If the QR code doesn't connect** (e.g. on guest, office or public Wi-Fi that blocks devices from seeing each other, or behind a VPN/firewall), start it with a tunnel instead:
+
+```bash
+npx expo start --tunnel
+```
+
+This routes the connection through the internet, so the phone doesn't need to be on the same network. It's slower to start, and the first time Expo may ask to install `@expo/ngrok`: answer yes.
+
 ### Static web build (what Render serves)
 
 ```bash
