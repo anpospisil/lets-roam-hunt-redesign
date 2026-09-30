@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Let's Roam Hunt Redesign",
+    "slug": "lets-roam-hunt-redesign",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "name": "Let's Roam Hunt Redesign",
+      "shortName": "Hunt Redesign",
+      "themeColor": "#000000",
+      "backgroundColor": "#000000",
+      "description": "Redesign of the Let's Roam main hunt screen"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "backgroundColor": "#000000",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    }
+  }
+}

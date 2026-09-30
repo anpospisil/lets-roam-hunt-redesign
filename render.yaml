@@ -1,0 +1,19 @@
+# Render Blueprint: static web build of the Expo app.
+# In Render: New > Blueprint > pick this repo > Apply.
+services:
+  - type: web
+    name: lets-roam-hunt-redesign
+    runtime: static
+    buildCommand: npm ci && npm run build:web
+    staticPublishPath: dist
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+    headers:
+      - path: /_expo/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
