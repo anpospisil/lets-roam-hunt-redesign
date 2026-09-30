@@ -6,7 +6,7 @@ A redesign of the screen teams use for most of a Let's Roam scavenger hunt, buil
 
 | | |
 |---|---|
-| **Live demo** | `[RENDER URL]`: opens in any browser; on desktop the demo panel sits beside the phone |
+| **Live demo** | **https://lets-roam-hunt-redesign.onrender.com**: opens in any browser; on desktop the demo panel sits beside the phone |
 | **Design (critique, redesign, test plan)** | [Design canvas](https://claude.ai/artifact/61er5rYaaczxhpj6A1SgDB) |
 | **Stack** | Expo SDK 57 · React Native 0.86 · React 19 · TypeScript · react-native-web · Jest |
 
